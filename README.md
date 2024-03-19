@@ -24,6 +24,29 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+
+### urls.py :
+```
+from django.contrib import admin
+from django.urls import path
+
+from openfile_app import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('timetable/', views.timetable, name='timetable'),
+]
+
+urls.py
+```
+### views.py :
+```
+from django.shortcuts import render
+
+def timetable(request):
+    return render(request, 'openfile_app/timetable.html')
+```
+### timetable.html :
 ```
 <!DOCTYPE html>
 <html>
@@ -116,8 +139,16 @@ Execute the program using runserver command.
 </html>
 ```
 
-## OUTPUT
-![Screenshot 2024-03-18 201658](https://github.com/Revanth-2717/slot/assets/152462274/ca472d4e-f4f4-4601-9e3a-0b7e637eff3d)
+## OUTPUT :
+![WhatsApp Image 2024-03-19 at 20 11 22_288540f7](https://github.com/Revanth-2717/slot/assets/152462274/66ab8ebf-8942-4773-9ba6-e4f961575d68)
+<br>
+<br>
+<br>
+![WhatsApp Image 2024-03-19 at 20 11 20_0712f1c3](https://github.com/Revanth-2717/slot/assets/152462274/3107487d-7e46-43e0-92ba-8c0ab2a8ce55)
+<br>
+<br>
+<br>
+![WhatsApp Image 2024-03-19 at 20 11 09_7ca5ca44](https://github.com/Revanth-2717/slot/assets/152462274/2d1f10a6-fa74-4c70-94c9-8f211b8986d7)
 
 
 ## RESULT
