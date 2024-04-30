@@ -23,111 +23,115 @@ Add your timetable using ```<td>``` tag.
 ### STEP 6
 Execute the program using runserver command.
 
-## PROGRAM
+## PROGRAM :
 ```
-<!DOCTYPE html>
 <html>
     <head>
-        <title>Time Table</title>
+        <title>MY TIME TABLE</title>
     </head>
     <body>
-<img src="logo.png" width="950px" height="100px">
-<TABLE BORDER="4" width="950" bgcolor="white" cellspacing="3" cellpadding="2"> 
-    <TR> 
-        <TH colspan="4" bgcolor="cyan" align="center">TIME TABLE</TH>
-    </TR>
-    <TR> 
-        <TD BORDER="4"rowspan="2"><b>Reference Number:</b></TD>
-
-    </TR>
-    <TR>
-        <TD BORDER="4"><b>23002622</b></TD>
-        <TD BORDER="4">Name:</TD>
-        <TD BORDER="4">P.REVANTH</TD>
-    </TR>
-    <TR> 
-        <TD rowspan="2"><b>DAYS</b></TD>
-
-    </TR>
-    <TR>
-        <TD>1</TD> 
-        <TD>2</TD>
-        <TD>3</TD>
-        <TD>4</TD>
-
-    </TR>
-    <TR> 
-        <TD rowspan="2" width="25%">Monday</TD>
-
-    </TR>
-    <TR>
-        <TD width="25%">-</TD> 
-        <TD width="25%">-</TD>
-        <TD width="25%">19EE305/JOHN DE BRITTO.C</TD>
-        <TD width="25%">19AI304/MAGITHA NIRMALA TENNYSON</TD>
-    </TR>
-    <TR> 
-        <TD rowspan="2" width="25%">Tuesday</TD>
-
-    </TR>
-    <TR>
-        <TD width="25%">-</TD>
-        <TD width="25%">19CS408/DHIVYA DHARSHINI.S</TD> 
-        <TD width="25%">19AI414/SEVAKUMAR.R</TD>
-        <TD width="25%">-</TD>
-    </TR>
-    <TR> 
-        <TD rowspan="2" width="25%">Wednesday</TD>
-
-    </TR>
-    <TR>
-        <TD width="25%">-</TD>
-        <TD width="25%">19EE305/JOHN DE BRITTO.C</TD>
-        <TD width="25%">19EY702/EVANGELIN HELEN</TD>
-        <TD width="25%">19CS406/NALINIPRIYA.G</TD>
-    </TR>
-    <TR> 
-        <TD rowspan="2" width="25%">Thursday</TD>
-
-    </TR>
-    <TR>
-        <TD width="25%">19CS408/DHIVYA DHARSHINI.S</TD> 
-        <TD width="25%">19MA222/SRAVYA.PR</TD>
-        <TD width="25%">19AI414/SEVAKUMAR.R</TD>
-        <TD width="25%">-</TD>
-    </TR>
-    <TR> 
-        <TD rowspan="2" width="25%">Friday</TD>
-
-    </TR>
-    <TR> 
-        <TD width="25%">19AI414/SELVAKUMAR.R</TD>
-        <TD width="25%">19AI304/MAGITHA NIRMALA TENNYSON</TD> 
-        <TD width="25%">19CS406/NALINIPRIYA.G</TD>
-        <TD width="25%"></TD>
-    </TR>
-    <TR>
-        <TD width="25%">19MA222/SRAVYA.PR</TD> 
-        <TD width="25%">-</TD> 
-        <TD width="25%">-</TD> 
-        <TD width="25%">-</TD> 
-    </TR>
-    </TABLE>
+        <center>
+        <img src="logo.png" height="100" width="777">
+        </center>
+        <table align="center" border="2" cellspacing="12" cellpadding="12" height="25" width="50">
+            <h1 align="center">Slot Time Table-P.REVANTH (212223040143)</h1>
+            <tr>
+                <th bgcolor="yellow">DAY/TIME</th>
+                <th bgcolor="yellow">MONDAY</th>
+                <th bgcolor="yellow">TUESDAY</th>
+                <th bgcolor="yellow">WEDNSEDAY</th>
+                <th bgcolor="yellow">THURSDAY</th>
+                <th bgcolor="yellow">FRIDAY</th>
+                <th bgcolor="yellow">SATURDAY</th>
+            </tr>
+            <tr>
+                <th bgcolor="skyblue">8-10</th>
+                <td bgcolor="pink">free slot</td>
+                <td bgcolor="pink">free slot</td>
+                <td bgcolor="pink">chemistry</td>
+                <td bgcolor="pink">free slot</td>
+                <td bgcolor="pink">fundamental of web</td>
+                <td bgcolor="pink">maths</td>
+            </tr>
+            <tr>
+                <th bgcolor="skyblue">10-12</th>
+                <td bgcolor="pink">free slot</td>
+                <td bgcolor="pink">free slot</td>
+                <td bgcolor="pink">free slot</td>
+                <td bgcolor="pink">maths</td>
+                <td bgcolor="pink">c program</td>
+                <td bgcolor="pink">che</td>
+            </tr>
+            <tr>
+                <th bgcolor="skyblue">12-01</th>
+                <th colspan="6" align="center" bgcolor="green">l u n c h</th>
+                
+            </tr>
+            <tr>
+                <th bgcolor="skyblue">01-03</th>
+                <td bgcolor="pink">creative skill</td>
+                <td bgcolor="pink">fundamental of web</td>
+                <td bgcolor="pink">english</td>
+                <td bgcolor="pink">fundamental of web</td>
+                <td bgcolor="pink">computer network</td>
+                <td bgcolor="pink">free slot</td>
+            </tr>
+            <tr>
+                <th bgcolor="skyblue">03-05</th>
+                <td bgcolor="pink">c program</td>
+                <td bgcolor="pink">free slot</td>
+                <td bgcolor="pink">computer networks</td>
+                <td bgcolor="pink">free slot</td>
+                <td bgcolor="pink">english</td>
+                <td bgcolor="pink">free slot</td>
+            </tr>
+        <table align="center" border="2" cellspacing="2" cellpadding="4" >
+            <tr>
+                <th>S.N0</th>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>19AI304</th>
+                <th>Fundamental of C Programming</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>19AI414</th>
+                <th>Fundamental of Web Application</th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>19CS406</th>
+                <th>Computer Networks</th>
+            </tr>
+            <tr>
+                <th>4</th>
+                <th>19CY205</th>
+                <th>Principles Of Chemistry in Engineering</th>
+            </tr>
+            <tr>
+                <th>5</th>
+                <th>19EN101</th>
+                <th>Communicative English</th>
+            </tr>
+            <tr>
+                <th>6</th>
+                <th>19EY702</th>
+                <th>Creative Skills for Communication</th>
+            </tr>
+            <tr>
+                <th>7</th>
+                <th>19MA222</th>
+                <th>Probability and Queueing Models</th>
+            </tr>
+        </table>
     </body>
 </html>
 ```
-
-
 ## OUTPUT :
-![WhatsApp Image 2024-03-19 at 20 11 22_288540f7](https://github.com/Revanth-2717/slot/assets/152462274/66ab8ebf-8942-4773-9ba6-e4f961575d68)
-<br>
-<br>
-<br>
-![WhatsApp Image 2024-03-19 at 20 11 20_0712f1c3](https://github.com/Revanth-2717/slot/assets/152462274/3107487d-7e46-43e0-92ba-8c0ab2a8ce55)
-<br>
-<br>
-<br>
-![WhatsApp Image 2024-04-30 at 14 10 25_41d7c7f7](https://github.com/Revanth-2717/slot/assets/152462274/04ca44ba-ebe6-4ee2-b7e7-b868f02739f1)
+![Screenshot 2024-04-30 142741](https://github.com/Revanth-2717/slot/assets/152462274/2ea04cfd-d7d4-44f0-806d-16bfc77aa581)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
