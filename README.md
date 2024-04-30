@@ -24,29 +24,6 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-
-### urls.py :
-```
-from django.contrib import admin
-from django.urls import path
-
-from openfile_app import views
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('timetable/', views.timetable, name='timetable'),
-]
-
-urls.py
-```
-### views.py :
-```
-from django.shortcuts import render
-
-def timetable(request):
-    return render(request, 'openfile_app/timetable.html')
-```
-### timetable.html :
 ```
 <!DOCTYPE html>
 <html>
@@ -54,6 +31,7 @@ def timetable(request):
         <title>Time Table</title>
     </head>
     <body>
+<img src="logo.png" width="950px" height="100px">
 <TABLE BORDER="4" width="950" bgcolor="white" cellspacing="3" cellpadding="2"> 
     <TR> 
         <TH colspan="4" bgcolor="cyan" align="center">TIME TABLE</TH>
@@ -139,6 +117,7 @@ def timetable(request):
 </html>
 ```
 
+
 ## OUTPUT :
 ![WhatsApp Image 2024-03-19 at 20 11 22_288540f7](https://github.com/Revanth-2717/slot/assets/152462274/66ab8ebf-8942-4773-9ba6-e4f961575d68)
 <br>
@@ -148,8 +127,7 @@ def timetable(request):
 <br>
 <br>
 <br>
-![WhatsApp Image 2024-03-19 at 20 11 09_7ca5ca44](https://github.com/Revanth-2717/slot/assets/152462274/2d1f10a6-fa74-4c70-94c9-8f211b8986d7)
-
+![WhatsApp Image 2024-04-30 at 14 10 25_41d7c7f7](https://github.com/Revanth-2717/slot/assets/152462274/04ca44ba-ebe6-4ee2-b7e7-b868f02739f1)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
